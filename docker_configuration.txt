@@ -1,0 +1,18 @@
+-- Create a Dockerfile
+    - List steps for creating image
+        - choose a base image (python)
+        - install dependencies <specified in requirements.txt>
+        - setup users
+
+-- Docker Compose
+    - how docker image(s) should be used
+    - define "services"
+    - port mappings
+    - volume mappings
+
+-- Using Docker Compose
+    - run all commands through Docker Compose 
+        - example: docker-compose run --rm app sh -c "python manage.py collectstatic"""
+
+-- .dockerignore
+    - specify a list of files to be excluded from docker context (i.e. the directory you run docker compose from)
