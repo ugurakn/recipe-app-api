@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# readme/tutorial files
+tutorials/
+docker_configuration
+github_actions
